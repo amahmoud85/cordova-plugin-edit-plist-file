@@ -44,7 +44,7 @@
             </array>
         </config-file>
         
-        <config-file target="Entitlements-Debug.plist">
+        <config-file target="Entitlements-Debug.plist" parent="com.apple.developer.payment-pass-provisioning">
             <key>com.apple.developer.payment-pass-provisioning</key>
             <true/>         
         </config-file>
