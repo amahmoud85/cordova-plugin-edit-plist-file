@@ -45,10 +45,9 @@
         </config-file>
         
         <config-file target="Entitlements-Debug.plist">
-        <key>com.apple.developer.payment-pass-provisioning</key>
-        <true/>
-            
-</config-file>
+            <key>com.apple.developer.payment-pass-provisioning</key>
+            <true/>         
+        </config-file>
 
         
         
