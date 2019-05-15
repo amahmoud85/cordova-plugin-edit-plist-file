@@ -43,28 +43,18 @@
                 <string>instagram</string>
             </array>
         </config-file>
-        
-        <config-file target="*-Debug.plist" parent="com.apple.developer.payment-pass-provisioning">
-            <key>com.apple.developer.payment-pass-provisioning</key>
-            <true/>         
-        </config-file>
-        
-		<config-file target="*-Debug.plist">
-            <key>com.apple.developer.payment-pass-provisioning2</key>
-            <true/>         
-        </config-file>
-        
-        <config-file target="*-Release.plist" parent="com.apple.developer.payment-pass-provisioning">
-            <key>com.apple.developer.payment-pass-provisioning</key>
-            <true/>         
-        </config-file>
-        
-		<config-file target="*-Release.plist">
-            <key>com.apple.developer.payment-pass-provisioning2</key>
-            <true/>         
-        </config-file>
 
-        
+	<config-file parent="com.apple.developer.associated-domains" target="*/Entitlements-Debug.plist">
+		<array>
+		<string>applinks:1jq1.test-app.link</string>
+		</array>
+	</config-file>
+
+	<config-file parent="com.apple.developer.associated-domains" target="*/Entitlements-Release.plist">
+		<array>
+		<string>applinks:1jq1.test-app.link</string>
+		</array>
+	</config-file>   
         
     </platform>
     
